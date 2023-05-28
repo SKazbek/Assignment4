@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trigger - Your Ultimate Game Store</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="trigger-logo.png" alt="Trigger">
+        <!-- Trigger -->
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#games">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome to Trigger</h1>
+      <p>We carry all the latest and greatest titles, so you're sure to find what you're looking for. Plus, our prices are unbeatable. So why wait?</p>
+      <a href="#games" class="btn">Explore Games</a>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="about-content">
+      <h2>About Trigger</h2>
+      <p>Trigger is an online game store dedicated to providing gamers with the latest and greatest games across all platforms. Whether you're a console gamer or a PC enthusiast, we've got you covered.</p>
+      <p>At Trigger, we believe in offering a diverse collection of games, including popular titles, indie gems, and classic favorites. Our mission is to create a vibrant gaming community and make gaming accessible to everyone.</p>
+    </div>
+  </section>
+  
+  <!-- Games Section -->
+  <section id="games">
+    <div class="container">
+      <div class="games-content">
+        <h2>Popular Games</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game1.png" class="card-img-top" alt="Game 1">
+              <div class="card-body">
+                <h5 class="card-title">Kill the Justice League</h5>
+                <p class="card-text">Shooter, Action-adventure</p>
+                <p class="card-text">Price: $19.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game2.png" class="card-img-top" alt="Game 2">
+              <div class="card-body">
+                <h5 class="card-title">The Day Before</h5>
+                <p class="card-text">Survival horror, open world</p>
+                <p class="card-text">Price: $24.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game3.png" class="card-img-top" alt="Game 3">
+              <div class="card-body">
+                <h5 class="card-title">Starfield</h5>
+                <p class="card-text">Shooter, Action/RPG, Action</p>
+                <p class="card-text">Price: $29.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game4.png" class="card-img-top" alt="Game 4">
+              <div class="card-body">
+                <h5 class="card-title">Marvel Snap</h5>
+                <p class="card-text">Strategy video game</p>
+                <p class="card-text">Price: $39.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game5.png" class="card-img-top" alt="Game 5">
+              <div class="card-body">
+                <h5 class="card-title">Horizon Forbidden West</h5>
+                <p class="card-text">An epic action RPG adventure.</p>
+                <p class="card-text">Price: $49.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="game6.png" class="card-img-top" alt="Game 6">
+              <div class="card-body">
+                <h5 class="card-title">Street Fighter 6</h5>
+                <p class="card-text">Fighting, Adventure</p>
+                <p class="card-text">Price: $59.99</p>
+                <a href="purchase.html" class="card-link">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Us</h2>
+        <p>Have any suggestions to improve our store? We'd love to hear from you!</p>
+        <div class="row">
+          <div class="col-md-6">
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-info">
+              <h3>Our Location</h3>
+              <p>Mangilik El Street, 55/8, Astana, Kazakhstan</p>
+              <h3>Email</h3>
+              <p>contact@triggerstore.com</p>
+              <h3>Phone</h3>
+              <p>+7 234 567 890</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Trigger. All rights reserved.</p>
+  </footer>
+
+  <!-- Add Bootstrap JS (required for navbar toggling) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- Include jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include your custom JavaScript file -->
+  <script src="index.js"></script>
+</body>
+</html>
