@@ -1,0 +1,132 @@
+.component-1 {
+    padding: 0 58px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .image-187 {
+    width: 11.39%;
+    height: 8.44%;
+    margin-bottom: 73.86px;
+  }
+  .flex-wrapper-two {
+    margin-bottom: 87px;
+    padding: 0 0 0 107px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flex-wrapper-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flex-wrapper-three:not(:last-of-type) {
+    margin-right: 101px;
+  }
+  .suicide-squad-kill-the-justice-league {
+    height: 31.62%;
+    color: var(--black);
+    align-self: stretch;
+    margin-bottom: 74px;
+    margin-left: 19px;
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: var(--inter-90-semi-bold-weight);
+    line-height: var(--inter-90-semi-bold-line-height);
+  }
+  .jump-into-suicide-squad-kill-the-justic {
+    max-width: 955px;
+    width: 93.72%;
+    height: 58.38%;
+    color: var(--black);
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: var(--inter-48-regular-size);
+    font-weight: var(--inter-48-regular-weight);
+    line-height: var(--inter-48-regular-line-height);
+  }
+  .image-186 {
+    height: 68.26%;
+    align-self: stretch;
+    margin-bottom: 69px;
+    object-fit: cover;
+  }
+  .flex-wrapper-five {
+    padding: 0 0 0 135px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .num-19-99 {
+    width: 47.76%;
+    height: 76.14%;
+    color: var(--black);
+    margin-top: 47px;
+    margin-right: 63px;
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: var(--inter-100-medium-size);
+    font-weight: var(--inter-100-medium-weight);
+    line-height: var(--inter-100-medium-line-height);
+  }
+  .knopka {
+    background-color:#FF5F6D;
+    border-radius: 8px;
+    padding: 19px 39px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+  }
+  .buy {
+    color: #000000;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: var(--montserrat-64-medium-family);
+    font-size: var(--montserrat-64-medium-size);
+    font-weight: var(--montserrat-64-medium-weight);
+    line-height: var(--montserrat-64-medium-line-height);
+  }
+  .flex-wrapper-one {
+    margin-bottom: 64px;
+    margin-left: 126px;
+    position: relative;
+  }
+  .about-game {
+    width: 100%;
+    height: 100%;
+    color: var(--black);
+    position: relative;
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: var(--inter-90-semi-bold-size);
+    font-weight: var(--inter-90-semi-bold-weight);
+    line-height: var(--inter-90-semi-bold-line-height);
+  }
+  .about-game-two {
+    width: 100%;
+    height: 100%;
+    color: var(--black);
+    position: absolute;
+    left: 0;
+    top: 0;
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: var(--inter-90-semi-bold-size);
+    font-weight: var(--inter-90-semi-bold-weight);
+    line-height: var(--inter-90-semi-bold-line-height);
+  }
+  .this-title-combines-the-studios-signatu {
+    max-width: 2087px;
+    width: 94.31%;
+    height: 40.5%;
+    color: var(--black);
+    margin-left: 126px;
+    letter-spacing: 0.5px;
+    font-family: "Inter", sans-serif;
+    font-size: var(--inter-48-regular-size);
+    font-weight: var(--inter-48-regular-weight);
+    line-height: var(--inter-48-regular-line-height);
+  }
