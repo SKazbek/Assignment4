@@ -26,7 +26,13 @@
   .navbar-nav .nav-link {
     font-size: 18px;
     margin-right: 20px;
-    color: #fff;
+    color: #555;
+  }
+
+  #navbarNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
   }
   
   .navbar-nav .nav-link:hover {
@@ -174,10 +180,62 @@
   .card-link:hover {
     text-decoration: underline;
   }
+
+  /* Testimonials Section Styles */
+  #testimonials {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+    font-family: "Inter", sans-serif;
+  }
+
+  #testimonials h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-content {
+    width: 75%;
+  }
+  
+  .testimonial-content .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .testimonial-content h4 {
+    font-size: 18px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
   
   /* Contact Section Styles */
   #contact {
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding: 60px 0;
     font-family: "Inter", sans-serif;
   }
