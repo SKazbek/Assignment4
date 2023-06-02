@@ -1,18 +1,9 @@
 $(document).ready(function() {
-    function playMusic(card) {
-        var musicSrc = $(card).data('music');
-        var audio = new Audio(musicSrc);
-        audio.play();
-    }
+    $("#submitBtn").click(function() {
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var suggestion = $("#suggestion").val();
 
-    $('.card').hover(function() {
-        playMusic(this);
-    }, function() {
-        var audio = $(this).find('audio')[0];
-        if (audio) {
-            audio.pause();
-            audio.currentTime = 0;
-        }
+        alert("Name: " + name + "\nEmail: " + email + "\nSuggestion: " + suggestion);
     });
 });
-  
