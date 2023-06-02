@@ -48,7 +48,7 @@
   /* Hero Section Styles */
   #hero {
     font-family: "Inter", sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/img/hero-background.jpg');
     background-position: center;
     background-size: cover;
     height: 600px;
